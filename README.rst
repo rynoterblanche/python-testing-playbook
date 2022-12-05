@@ -17,4 +17,5 @@ well as the seller details.
 Running Unit Tests
 ==================
 
-    python -m unittest
+    python -m pip install pytest
+    pytest
