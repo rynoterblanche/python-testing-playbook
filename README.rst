@@ -1,13 +1,11 @@
-=======================
 Python Testing Playbook
-=======================
+#######################
 
 This project is used as a playbook for exploring testing concepts, best practices, frameworks etc.
 
 Use the 'howto/' branches to explore further.
 
 
-============
 PriceCatalog
 ============
 
