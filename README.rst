@@ -12,3 +12,9 @@ PriceCatalog
 The example application in this project searches for price bargains - the application takes a given catalog of
 items and search criteria to find relevant deals. Each catalog item provides a description, price information as
 well as the seller details.
+
+
+Running Unit Tests
+==================
+
+    python -m unittest
