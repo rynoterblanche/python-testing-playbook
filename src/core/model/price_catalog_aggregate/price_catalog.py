@@ -9,8 +9,12 @@ from src.core.model.value_objects.money import Money
 class PriceCatalog:
     _items: List[PriceItem]
 
-    def __init__(self):
-        self._items = []
+    def __init__(self, items: List[PriceItem] = None):
+        self._items = items or []
+
+    @property
+    def items(self) -> List[PriceItem]:
+        return self._items
 
     def add(self, description: str, price: Money, seller: str) -> None:
         item = PriceItem(description, price, seller)
