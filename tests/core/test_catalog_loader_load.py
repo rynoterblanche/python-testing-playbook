@@ -1,15 +1,17 @@
-import unittest
+import pytest
 
 from src.core.catalog_loader import CatalogLoader
+from src.core.model.price_catalog_aggregate.price_catalog import PriceCatalog
 from src.core.model.price_catalog_aggregate.price_item import PriceItem
 from src.core.model.value_objects.money import Money
 from src.infrastructure.serializers.csv_catalog_serializer import CsvCatalogSerializer
 from tests.core.fake_catalog_source import FakeCatalogSource
 
 
-class CatalogLoaderLoad(unittest.TestCase):
+class TestCatalogLoaderLoad:
 
-    def setUp(self) -> None:
+    @pytest.fixture(scope="class", autouse=True)
+    def loaded_catalog(self):
         test_data = "ps5,100.00,USD,Amazon\n" \
                     "ps5,120.00,USD,Ebay"
 
@@ -17,12 +19,13 @@ class CatalogLoaderLoad(unittest.TestCase):
         serializer = CsvCatalogSerializer()
 
         loader = CatalogLoader(source, serializer)
-        self.catalog = loader.load()
+        catalog = loader.load()
+        return catalog
 
-    def test_catalog_loaded_correctly(self) -> None:
+    def test_catalog_loaded_correctly(self, loaded_catalog: PriceCatalog) -> None:
         expected_items = [
             PriceItem("ps5", Money(100.00, "USD"), "Amazon"),
             PriceItem("ps5", Money(120.00, "USD"), "Ebay")
         ]
 
-        self.assertListEqual(expected_items, self.catalog.items)
+        assert expected_items == loaded_catalog.items
