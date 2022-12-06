@@ -13,6 +13,10 @@ The example application in this project searches for price bargains - the applic
 items and search criteria to find relevant deals. Each catalog item provides a description, price information as
 well as the seller details.
 
+Usage:
+
+    python setup.py install
+    python -m price_catalog sample_data/prices.csv ps5 GBP
 
 Running Unit Tests
 ==================
