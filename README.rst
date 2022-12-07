@@ -5,7 +5,7 @@ This project is used as a playbook for exploring testing concepts, best practice
 
 Use the ``howto/**`` branches to explore further.
 
-``howto/unit-testing-with-pytest`` is the base branch for pytest exploration.
+``howto/testing-with-pytest`` is the base branch for pytest exploration.
 
 PriceCatalog
 ============
