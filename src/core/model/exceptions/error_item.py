@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.core.model.price_catalog_aggregate.price_item import PriceItem
+from core.model.price_catalog_aggregate.price_item import PriceItem
 
 
 @dataclass

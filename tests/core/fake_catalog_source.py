@@ -1,4 +1,4 @@
-from src.core.interfaces.catalog_source import CatalogSource
+from core.interfaces.catalog_source import CatalogSource
 
 
 class FakeCatalogSource(CatalogSource):

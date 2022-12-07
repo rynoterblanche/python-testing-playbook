@@ -1,5 +1,5 @@
-from src.core.model.price_catalog_aggregate.price_catalog import PriceCatalog
-from src.core.model.value_objects.money import Money
+from core.model.price_catalog_aggregate.price_catalog import PriceCatalog
+from core.model.value_objects.money import Money
 
 
 class TestPriceCatalogTopDeals:

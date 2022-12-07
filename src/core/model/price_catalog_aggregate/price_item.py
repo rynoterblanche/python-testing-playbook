@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.core.model.value_objects.money import Money
+from core.model.value_objects.money import Money
 
 
 @dataclass

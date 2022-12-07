@@ -1,9 +1,9 @@
 from typing import List
 
-from src.core.model.exceptions.item_not_found_exception import InvalidCatalogException
-from src.core.model.exceptions.error_item import ErrorItem
-from src.core.model.price_catalog_aggregate.price_item import PriceItem
-from src.core.model.value_objects.money import Money
+from core.model.exceptions.item_not_found_exception import InvalidCatalogException
+from core.model.exceptions.error_item import ErrorItem
+from core.model.price_catalog_aggregate.price_item import PriceItem
+from core.model.value_objects.money import Money
 
 
 class PriceCatalog:

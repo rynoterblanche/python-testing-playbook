@@ -1,6 +1,6 @@
 from typing import List
 
-from src.core.model.exceptions.error_item import ErrorItem
+from core.model.exceptions.error_item import ErrorItem
 
 
 class InvalidCatalogException(Exception):

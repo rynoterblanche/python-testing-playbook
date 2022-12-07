@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from src.core.model.price_catalog_aggregate.price_catalog import PriceCatalog
+from core.model.price_catalog_aggregate.price_catalog import PriceCatalog
 
 
 class CatalogSerializer(ABC):

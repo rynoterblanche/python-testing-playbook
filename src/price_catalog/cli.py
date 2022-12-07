@@ -1,8 +1,8 @@
 import sys
 
-from src.core.catalog_loader import CatalogLoader
-from src.infrastructure.catalog_sources.file_catalog_source import FileCatalogSource
-from src.infrastructure.serializers.csv_catalog_serializer import CsvCatalogSerializer
+from core.catalog_loader import CatalogLoader
+from infrastructure.catalog_sources.file_catalog_source import FileCatalogSource
+from infrastructure.serializers.csv_catalog_serializer import CsvCatalogSerializer
 
 
 def main(filepath: str, item_desc: str, item_currency: str):

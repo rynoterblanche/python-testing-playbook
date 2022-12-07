@@ -1,9 +1,9 @@
 import pytest
 
-from src.core.model.price_catalog_aggregate.price_catalog import PriceCatalog
-from src.core.model.price_catalog_aggregate.price_item import PriceItem
-from src.core.model.value_objects.money import Money
-from src.infrastructure.serializers.csv_catalog_serializer import CsvCatalogSerializer
+from core.model.price_catalog_aggregate.price_catalog import PriceCatalog
+from core.model.price_catalog_aggregate.price_item import PriceItem
+from core.model.value_objects.money import Money
+from infrastructure.serializers.csv_catalog_serializer import CsvCatalogSerializer
 
 
 class TestCsvCatalogSerializerGetCatalogFromString:

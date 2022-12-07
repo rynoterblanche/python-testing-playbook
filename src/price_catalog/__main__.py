@@ -1,6 +1,6 @@
 import sys
 
-from src.price_catalog import cli
+from price_catalog import cli
 
 filepath = sys.argv[1]
 item_desc = sys.argv[2]
