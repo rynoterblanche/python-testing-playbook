@@ -5,7 +5,7 @@ This project is used as a playbook for exploring testing concepts, best practice
 
 Use the ``howto/**`` branches to explore further.
 
-``howto/unit-testing-with-unitest`` is the base branch for unittest exploration.
+``howto/testing-with-unittest`` is the base branch for unittest exploration.
 
 PriceCatalog
 ============
