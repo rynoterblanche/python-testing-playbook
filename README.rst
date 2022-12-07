@@ -3,7 +3,7 @@ Python Testing Playbook
 
 This project is used as a playbook for exploring testing concepts, best practices, frameworks etc.
 
-Use the 'howto/' branches to explore further.
+Use the ``howto/**`` branches to explore further.
 
 ``howto/unit-testing-with-unittest`` is the base branch for unittest exploration.
 
