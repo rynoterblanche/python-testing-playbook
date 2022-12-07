@@ -1,6 +1,6 @@
-from src.core.interfaces.catalog_serializer import CatalogSerializer
-from src.core.interfaces.catalog_source import CatalogSource
-from src.core.model.price_catalog_aggregate.price_catalog import PriceCatalog
+from core.interfaces.catalog_serializer import CatalogSerializer
+from core.interfaces.catalog_source import CatalogSource
+from core.model.price_catalog_aggregate.price_catalog import PriceCatalog
 
 
 class CatalogLoader(object):

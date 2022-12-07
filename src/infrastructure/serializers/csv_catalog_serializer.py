@@ -1,9 +1,9 @@
 from decimal import Decimal
 
-from src.core.interfaces.catalog_serializer import CatalogSerializer
-from src.core.model.price_catalog_aggregate.price_catalog import PriceCatalog
-from src.core.model.price_catalog_aggregate.price_item import PriceItem
-from src.core.model.value_objects.money import Money
+from core.interfaces.catalog_serializer import CatalogSerializer
+from core.model.price_catalog_aggregate.price_catalog import PriceCatalog
+from core.model.price_catalog_aggregate.price_item import PriceItem
+from core.model.value_objects.money import Money
 
 
 class CsvCatalogSerializer(CatalogSerializer):

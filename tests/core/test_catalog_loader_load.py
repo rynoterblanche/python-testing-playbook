@@ -1,9 +1,9 @@
 import unittest
 
-from src.core.catalog_loader import CatalogLoader
-from src.core.model.price_catalog_aggregate.price_item import PriceItem
-from src.core.model.value_objects.money import Money
-from src.infrastructure.serializers.csv_catalog_serializer import CsvCatalogSerializer
+from core.catalog_loader import CatalogLoader
+from core.model.price_catalog_aggregate.price_item import PriceItem
+from core.model.value_objects.money import Money
+from infrastructure.serializers.csv_catalog_serializer import CsvCatalogSerializer
 from tests.core.fake_catalog_source import FakeCatalogSource
 
 
