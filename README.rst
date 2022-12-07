@@ -3,8 +3,9 @@ Python Testing Playbook
 
 This project is used as a playbook for exploring testing concepts, best practices, frameworks etc.
 
-Use the 'howto/' branches to explore further.
+Use the ``howto/**`` branches to explore further.
 
+``howto/unit-testing-with-unitest`` is the base branch for unittest exploration.
 
 PriceCatalog
 ============
@@ -15,10 +16,14 @@ well as the seller details.
 
 Usage:
 
+.. code-block:: console
+
     python setup.py install
     python -m price_catalog sample_data/prices.csv ps5 GBP
 
 Running Unit Tests
 ==================
+
+.. code-block:: console
 
     python -m unittest discover -s tests -v
