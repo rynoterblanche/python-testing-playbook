@@ -14,7 +14,9 @@ items and search criteria to find relevant deals. Each catalog item provides a d
 well as the seller details.
 
 Usage:
+
 .. code-block:: console
+
     python setup.py install
     python -m price_catalog sample_data/prices.csv ps5 GBP
 
@@ -22,5 +24,6 @@ Running Unit Tests
 ==================
 
 .. code-block:: console
+
     python -m pip install pytest
     pytest
