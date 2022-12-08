@@ -7,6 +7,10 @@ Use the ``howto/**`` branches to explore further.
 
 ``howto/testing-with-unittest`` is the base branch for unittest exploration.
 
+``howto/testing-with-pytest`` is the base branch for pytest exploration.
+
+(the source code & tests in ``main`` are kept up to date with the unittest branch)
+
 PriceCatalog
 ============
 
