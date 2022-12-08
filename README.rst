@@ -5,9 +5,9 @@ This project is used as a playbook for exploring testing concepts, best practice
 
 Use the ``howto/**`` branches to explore further.
 
-``howto/unit-testing-with-unittest`` is the base branch for unittest exploration.
+``howto/testing-with-unittest`` is the base branch for unittest exploration.
 
-``howto/unit-testing-with-pytest`` is the base branch for pytest exploration.
+``howto/testing-with-pytest`` is the base branch for pytest exploration.
 
 (the source code & tests in ``main`` are kept up to date with the unittest branch)
 
