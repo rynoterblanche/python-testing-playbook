@@ -21,10 +21,15 @@ Usage:
     python setup.py install
     python -m price_catalog sample_data/prices.csv ps5 GBP
 
-Running Unit Tests
-==================
+Running Tests
+=============
 
 .. code-block:: console
 
     python -m pip install pytest
-    pytest
+
+    # run unit tests
+    pytest tests/unit
+
+    # run integration tests
+    pytest tests/integration
