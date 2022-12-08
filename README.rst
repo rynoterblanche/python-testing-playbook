@@ -11,7 +11,6 @@ Use the ``howto/**`` branches to explore further.
 
 (the source code & tests in ``main`` are kept up to date with the unittest branch)
 
-
 PriceCatalog
 ============
 
@@ -21,10 +20,18 @@ well as the seller details.
 
 Usage:
 
+.. code-block:: console
+
     python setup.py install
     python -m price_catalog sample_data/prices.csv ps5 GBP
 
-Running Unit Tests
-==================
+Running Tests
+=============
 
-    python -m unittest discover -s tests -v
+.. code-block:: console
+
+    # run unit tests
+    python -m unittest discover -s tests/unit -t tests -v
+
+    # run integration tests
+    python -m unittest discover -s tests/integration -t tests -v
