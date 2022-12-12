@@ -33,3 +33,34 @@ Running Tests
 
     # run integration tests
     pytest tests/integration
+
+.. code-block:: console
+
+    python -m pip install --user tox
+    python -m tox --help
+
+Using tox for testing
+=====================
+
+Installation:
+
+Note - install tox within your global Python interpreter - see `tox installation`_.
+
+Usage:
+
+.. code-block:: console
+
+    # run all
+    python -m tox
+
+    # run unit tests
+    python -m tox -e unit
+    # or
+    python -m tox -- tests/unit
+
+    # run integration
+    python -m tox -e integration
+    # or
+    python -m tox -- tests/integration
+
+.. _`tox installation`: https://tox.wiki/en/latest/installation.html
