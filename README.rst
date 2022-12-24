@@ -67,3 +67,28 @@ Usage:
     python -m tox -- -s tests/integration -t tests -v
 
 .. _`tox installation`: https://tox.wiki/en/latest/installation.html
+
+Using Makefile for testing
+==========================
+
+Read up on `Makefile Docs`_
+
+.. code-block:: console
+
+    # setup
+    make setup-env
+
+    # run unit tests
+    make unit-test
+
+    # run integration tests
+    make integration-test
+
+    # install app
+    make install
+
+    # run app
+    make run
+
+.. _`Makefile Docs`: https://www.gnu.org/software/make/manual/make.html
+
