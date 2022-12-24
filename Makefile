@@ -6,7 +6,6 @@ TEST_CURRENCY=GBP
 TEST_PRICE_LIST=./sample_data/prices.csv
 
 setup-env:
-	sudo apt-get install python3 pip
 	pip install pipenv
 	pipenv install
 	pipenv shell
