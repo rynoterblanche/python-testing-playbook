@@ -91,4 +91,3 @@ Read up on `Makefile Docs`_
     make run
 
 .. _`Makefile Docs`: https://www.gnu.org/software/make/manual/make.html
-
